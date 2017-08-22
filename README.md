@@ -4,33 +4,21 @@ The project simulates a cargo-handling system, where different type of agents in
 
 ## Getting Started
 
-
-
 ### Prerequisites
 
-Install modified Raspbian image from Dexter Industries at the Raspberry Pi. Install netbeans and downlaod JADE at the raspberry Pi. Make sure that all the agents are connected to same wifi network.
+Install modified Raspbian image from Dexter Industries at the Raspberry Pi. Install netbeans and downlaod JADE at the raspberry Pi. Make sure that all the agents are connected to same wifi network. Import the jar files for each project. install putty and VNC to control the Raspberry Pi from local machine.
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+install required imports in the python codes.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Follow the follwing steps:
+1. run the code path_server.py in the local - PC - Responsible for the map of the workspace.
+2. run mobile_robotServer.py in the mobile agents and static_robotServer.py in the static agent.
+3. open netbeans at the Rpi agents and the respective IDE at local-PC. Give the following input as shown below:  
+
 
 ### Break down into end to end tests
 
@@ -63,7 +51,6 @@ Add additional notes about how to deploy this on a live system
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
-
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
