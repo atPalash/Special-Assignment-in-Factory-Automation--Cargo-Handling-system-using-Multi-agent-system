@@ -42,4 +42,4 @@ replace the program arguments with "-container -host 192.168.1.34 -port 1099" wh
 
 ### video for setup and robots in action
 Please watch the video with subtitles 
-video links:https://www.youtube.com/playlist?list=PLUgit2Zvqw2MoTt3fwD6ZBDVkgKlAu8R9
+video links:https://www.youtube.com/watch?v=WeKIt4D5sHQ&list=PLUgit2Zvqw2MoTt3fwD6ZBDVkgKlAu8R9
