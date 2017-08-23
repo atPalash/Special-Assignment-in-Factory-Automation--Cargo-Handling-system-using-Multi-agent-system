@@ -12,9 +12,9 @@ The project simulates a cargo-handling system, where different type of agents in
 
 ### Robot and workspace construction
 
-static agent: it has one motor and one conveyor belt. 
-mobile agent: it has two base motor for motion of robot and one motor for rotating the top mounted ultrasonic sensor. two ultrasonic sensors are used one for obstruction detection and one for localisation.
-workspace: a 800 X 800 enclosure. this workspace was selected as the ultrasonic sensor sensitivity decreases with higher distance.
+* static agent: it has one motor and one conveyor belt. 
+* mobile agent: it has two base motor for motion of robot and one motor for rotating the top mounted ultrasonic sensor. two ultrasonic sensors are used one for obstruction detection and one for localisation.
+* workspace: a 800 X 800 enclosure. this workspace was selected as the ultrasonic sensor sensitivity decreases with higher distance.
 
 ## Getting Started
 
