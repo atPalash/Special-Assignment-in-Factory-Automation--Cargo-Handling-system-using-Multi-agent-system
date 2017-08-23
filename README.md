@@ -17,8 +17,12 @@ install required imports in the python codes.
 Follow the follwing steps:
 1. run the code path_server.py in the local - PC - Responsible for the map of the workspace.
 2. run mobile_robotServer.py in the mobile agents and static_robotServer.py in the static agent.
-3. open netbeans at the Rpi agents and the respective IDE at local-PC. Give the following input as shown below: 
+3. open netbeans at the Rpi agents and the respective IDE at local-PC. Give the following input as shown below:
+Setup at local-PC
 ![capture](https://user-images.githubusercontent.com/25124540/29600662-e6417454-87df-11e7-9893-ae9073a53b04.PNG)
+Setup at Rpi-
+replace the program arguments with "-container -host 192.168.1.34 -port 1099" where IP address and port should be that of local-PC
+4. run the java application
 
 
 
