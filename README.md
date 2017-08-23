@@ -17,64 +17,14 @@ install required imports in the python codes.
 Follow the follwing steps:
 1. run the code path_server.py in the local - PC - Responsible for the map of the workspace.
 2. run mobile_robotServer.py in the mobile agents and static_robotServer.py in the static agent.
-3. open netbeans at the Rpi agents and the respective IDE at local-PC. Give the following input as shown below:
+3. open netbeans at the Rpi agents and the respective IDE at local-PC, import the JAR files as given in JADE/jarFiles folder. Give the following input as shown below:
 Setup at local-PC
 ![capture](https://user-images.githubusercontent.com/25124540/29600662-e6417454-87df-11e7-9893-ae9073a53b04.PNG)
 Setup at Rpi-
 replace the program arguments with "-container -host 192.168.1.34 -port 1099" where IP address and port should be that of local-PC
-4. run the java application
+4. run the java application. 
+5. A GUI will appear with all the Rpi connected to local-PC as "containers". right-click on the containers and start respective classes namely: initiator_Agent in static agent and responder_Agent in mobile agent. the rest of the steps can be found in the video link below.
 
-
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
-# Special-Assignment-in-Factory-Automation--Cargo-Handling-system-using-Multi-agent-system
-The projects simulates a Cargo handling system. 
+### video for setup and robots in action
+Please watch the video with subtitles 
 video links:https://www.youtube.com/playlist?list=PLUgit2Zvqw2MoTt3fwD6ZBDVkgKlAu8R9
