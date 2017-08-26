@@ -2,6 +2,10 @@
 
 The project simulates a cargo-handling system, where different type of agents interact to perform a job. The agents are Lego robots having Raspberry Pi as the controller and BrickPi as the interface between lego motor and sensors to Raspberry Pi. The project uses JADE as the multi-agent framework. JADE platforms are responsible for agent interaction and inter-agent communication. Here, one static and two mobile agents are present to simulate the situation. The task is to find the best agent to take the cargo from static agent to the point defined by the user. 
 
+### video for setup and robots in action
+Please watch the video with subtitles 
+video links:https://www.youtube.com/watch?v=WeKIt4D5sHQ&list=PLUgit2Zvqw2MoTt3fwD6ZBDVkgKlAu8R9
+
 ## Implementation
 
 ### Concept
@@ -40,6 +44,4 @@ replace the program arguments with "-container -host 192.168.1.34 -port 1099" wh
 4. run the java application. 
 5. A GUI will appear with all the Rpi connected to local-PC as "containers". right-click on the containers and start respective classes namely: initiator_Agent in static agent and responder_Agent in mobile agent. the rest of the steps can be found in the video link below.
 
-### video for setup and robots in action
-Please watch the video with subtitles 
-video links:https://www.youtube.com/watch?v=WeKIt4D5sHQ&list=PLUgit2Zvqw2MoTt3fwD6ZBDVkgKlAu8R9
+
