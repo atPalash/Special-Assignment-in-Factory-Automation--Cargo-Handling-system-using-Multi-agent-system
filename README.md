@@ -15,6 +15,11 @@ video links:https://www.youtube.com/watch?v=WeKIt4D5sHQ&list=PLUgit2Zvqw2MoTt3fw
 * Dynamic path planning approach has been used to compute the path the mobile agent need to take to perform the task. On detecting an obstruction it changes the map and the algorithm decides next optimum path to reach goal point.
 * create a system that is easily extendable. it is possible to easily add other agents (static and mobile) as containers attached to local PC
 
+### Agent Communication Diagram
+
+### MobileAgent path planning flowchart
+
+
 ### Robot and workspace construction
 
 * static agent: it has one motor and one conveyor belt. 
